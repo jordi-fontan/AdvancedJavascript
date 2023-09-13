@@ -34,7 +34,7 @@
 -   And this should take you through the steps required for installation. Note that if you're using Windows or a Unix distribution, the steps might be a little different. But Node.js has instructions for all of these as well.
 -    And once you have Node.js installed, you'll want to make sure that you have the most recent version of NPM installed.
 -    We'll be using a few libraries in this course and NPM is a package manager for Node.js that allows us to easily install them.
--    To install the most recent version of NPM, just open your terminal and type npm install -g npm@latest and you might need to run this with sudo as well.
+-    To install the most recent version of NPM, just open your terminal and type `npm install -g npm@latest` and you might need to run this with sudo as well.
 -    After that, type npm -v and it should show the latest version. If the NPM and Node versions on your computer are higher than mine, don't worry about it.
 -    Everything should still run correctly. But I do highly recommend having at least these version numbers here. And that's all there is to it. Node.js and NPM are now installed on your computer.
 
@@ -44,15 +44,15 @@
 - Open up a terminal and use cd to navigate to whatever parent directory you want to store the directory for this course in. I'm going to use Documents.
 - And then us the make directory command to create a new directory. For example, functional-ES6. And then use cd to move into that directory.
 - And once we're inside here, we want to set up our directory as an NPM package.
--  And we'll do that by running NPM init dash y, and the y flag here sets up an NPM package with all the default values.
+-  And we'll do that by running `npm init -y `, and the y flag here sets up an NPM package with all the default values.
 -   If you want to override the default values for your directory, just leave off the dash y flag.
 -   And now that we've set up our directory with NPM, we can install the NPM packages necessary to be able to execute ES6 code with node JS.
 -   Currently, node JS doesn't have native support for ES6 syntax, so we need to use a tool called babel to act as the middleman between the modern ES6 syntax that we're going to write, and common JS syntax which node JS can run.
 -   This might sound complicated, but it isn't. There are just two steps we need to take in order to get it working. The first thing we need to do is install the necessary bable packages.
--    And we do this by simply running NPM install, dash dash save, at babel slash core, at babel slash node, and at babel slash preset, dash env.
+-    And we do this by simply running `npm install --save  @babel/core @babel/node @babel/preset-env`.
 -    And hit enter. And this will run for a little while, but once it finishes, the second thing we need to do is create a new file in our directory.
 -    In order to do that, let's open up our directory in an IDE. I'm going to use VSCode here, but feel free to use whatever editor you're comfortable with.
--    So, let's open our directory, mine is in Documents, functional ES6. And inside this directory, we're going to create a new file, and we're going to call it dot babel rc.
+-    So, let's open our directory, mine is in Documents, functional ES6. And inside this directory, we're going to create a new file, and we're going to call it `.babelrc`
 -    I'm going to zoom in a little bit here, so that you can see it better.
 -    And all we need to do here is create a json object, with a single property called presets.
 -    And the value of this property will just be an array with a single string, that says at babel slash preset, dash env.
