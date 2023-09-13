@@ -57,17 +57,31 @@
 -    And all we need to do here is create a json object, with a single property called presets.
 -    And the value of this property will just be an array with a single string, that says at babel slash preset, dash env.
 -    And then we save that file, and that's all we have to do. We shouldn't have to worry about this file ever again for the rest of the course. Now comes the most important part, running our code.
+
+![image](https://github.com/jordi-fontan/AdvancedJavascript/assets/63612112/2edd87de-b032-4e6f-912b-12b21cb1f775)
+
+  
 -     From now on, I'm going to be running our code from VSCode's built-in terminal, but you're free to use whatever terminal you want.
 - So, normally in node JS, we can run our code by typing node, and then the path to our file, and the file name. So for example, source slash my file dot js.
-- But since we're going to be writing our code in ES6 syntax, which isn't yet natively supported by node, the command we're going to use instead is npx babel node, and then the path to our file.
+- But since we're going to be writing our code in ES6 syntax, which isn't yet natively supported by node, the command we're going to use instead is
+- `npx babel node`, and then the path to our file.
+
+![image](https://github.com/jordi-fontan/AdvancedJavascript/assets/63612112/88602319-71d6-4e4e-ab5f-41a817cdb89f)
 
 
 # Setting up the project: Hello World
 
 - [Instructor] Let's create a very simple file. We'll call it hello-world.js, and inside it we'll type some code with very basic ES6 syntax.
 - We'll say const sayHello, and that'll be a function that takes our name, and with backticks says hello name. After we've typed this out, let's just call our function with our own name.
-- Now, to run our code, make sure you're in the right directory and type npx babel-node, and then hello-world.js, and hit Enter, and we should see the result.
+
+  ![image](https://github.com/jordi-fontan/AdvancedJavascript/assets/63612112/0fbdeb40-7202-471d-a0d2-a384a207933e)
+
+- Now, to run our code, make sure you're in the right directory and type `npx babel-node hello-world.js`, and hit Enter, and we should see the result.
 - That's all there is to it. That's how we'll be running all the code in this course.
+
+![image](https://github.com/jordi-fontan/AdvancedJavascript/assets/63612112/ae996a8d-9a32-4565-a4cc-2bf695179336)
+
+  
 - It's also worth noting that if you want to play around with this code without writing it in a file first, you can also just type npx babel-node without a file name, and hit Enter,
 -  and it'll open up this read a value print loop in our terminal where we can test out different statements.
 -  Keep in mind, also, that from now on when I run code in the course I'm going to be running it from the exercise files folder.
