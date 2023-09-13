@@ -88,5 +88,7 @@
 -  Keep in mind, also, that from now on when I run code in the course I'm going to be running it from the exercise files folder.
 -  The only difference that makes is that the file paths in my commands might be a little different, so when you're running your own code just make sure that the file path points to the correct file.
 
+![image](https://github.com/jordi-fontan/AdvancedJavascript/assets/63612112/d51ed66d-133e-4c60-9713-e96637448391)
+
 
   
