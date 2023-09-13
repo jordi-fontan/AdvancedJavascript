@@ -1,5 +1,6 @@
 # Module 1 - Intro
 
+
 ## A functional approach to transform code
 
 - [Shaun] An increasing number of developers are switching from object-oriented programming to functional programming as a way to minimize the potential for bugs in their code while maximizing its readability and reusability.
